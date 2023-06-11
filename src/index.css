@@ -1,4 +1,10 @@
-@import-normalize; /* bring in normalize.css styles */
+/* @import-normalize; bring in normalize.css styles */
+
+:root {
+  --good-color: rgba(9, 173, 58, 0.5);
+  --neutral-color: rgb(152, 171, 223);
+  --bad-color: rgba(184, 39, 39, 0.8);
+}
 
 body {
   margin: 0;
